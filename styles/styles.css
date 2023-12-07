@@ -1,0 +1,22 @@
+.header-wrapper {
+    background-color: #74C69D;
+    height: 642px;
+    width: 375px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.nav-menu {
+
+}
