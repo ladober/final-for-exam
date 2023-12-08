@@ -5,8 +5,19 @@
 }
 
 @media all and (min-width: 1440px) {
+
+    .navbar-logo {
+        /* display: flex; */
+        /* align-items: center; */
+        /* padding: 10px 10px; */
+    }
+    .navbar {
+        justify-content: space-around;
+    }
     .nav-menu {
-        display: block;
+        padding: 20px;
+        display: flex;
+        gap: 100px;
     }
     .burger-menu {
         display: none;

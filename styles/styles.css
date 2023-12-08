@@ -160,14 +160,14 @@
     cursor:grab;
 }
 
-/* team-section */
+/* community-section */
 
-.section-team {
+.section-community {
     margin-top: 89px;
     text-align: center;
 }
 
-.section-team-h1 {
+.section-community-h1 {
     font-weight: 700;
     font-size: 2.4rem;
     color: #212529;
@@ -178,7 +178,7 @@
     margin-left: 20px;
 }
 
-.section-team-article {
+.section-community-article {
     font-weight: 400;
     font-size: 1.5rem;
     color: #212529;
@@ -190,7 +190,7 @@
     max-width: 335px;
 }
 
-.team-btn {
+.community-btn {
     text-align: left;
     margin-left: 15px;
     margin-top: 20px;
@@ -231,4 +231,36 @@
     margin-left: 15px;
     margin-top: 20px;
 }
+
+/* our team */
+
+.team-description {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.team-h1 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: var(--font-fam-work);
+    color: #74C69D;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.team-paragraph {
+    font-weight: 700;
+    font-size: 2.4rem;
+    font-family: var(--font-fam-crimson);
+    margin-top: 16px;
+}
+
+.team-article {
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: var(--font-fam-work);
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
 

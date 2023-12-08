@@ -28,9 +28,17 @@
     <header class="header-wrapper">
       <nav class="navbar">
         <div class="navbar-logo">
-          <a href="index.html"
-            ><img src="assets/icons/index/logo-sm.svg" alt="site logo"
-          /></a>
+          <a href="index.html">
+            <picture>
+              <source
+                media="(min-width: 1400px)"
+                srcset="assets/icons/index/logo.svg"
+              />
+              <img
+                src="assets/icons/index/logo-sm.svg"
+                alt="site logo"
+              /> </picture
+          ></a>
           <h1 class="navbar-h1">Start</h1>
         </div>
         <div class="nav-menu">
@@ -39,11 +47,9 @@
           <a href="services.html" target="_blank">Services</a>
           <a href="contact.html" target="_blank">Contact</a>
         </div>
-        <div>
-          <button class="burger-menu">
-            <img src="assets/icons/index/burger.svg" alt="burger menu" />
-          </button>
-        </div>
+        <button class="burger-menu">
+          <img src="assets/icons/index/burger.svg" alt="burger menu" />
+        </button>
       </nav>
 
       <div class="header-img">
@@ -66,9 +72,9 @@
             voluptate culpa nesciunt delectus iste?
           </article>
         </div>
-      </div>
-      <div class="btn-explore">
-        <button class="header-btn-explore">Explore</button>
+        <div class="btn-explore">
+          <button class="header-btn-explore">Explore</button>
+        </div>
       </div>
     </header>
 
@@ -107,7 +113,7 @@
         </div>
       </section>
 
-      <section class="section-team">
+      <section class="section-community">
         <div>
           <picture>
             <source
@@ -118,16 +124,16 @@
           </picture>
         </div>
         <div>
-          <h1 class="section-team-h1">
+          <h1 class="section-community-h1">
             Lorem ipsum dolor sit amet consectetur
           </h1>
-          <article class="section-team-article">
+          <article class="section-community-article">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
             nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
             voluptate culpa nesciunt delectus iste?
           </article>
         </div>
-        <div class="team-btn">
+        <div class="community-btn">
           <button class="learn-more-btn">Learn More</button>
         </div>
       </section>
@@ -143,20 +149,29 @@
           </picture>
         </div>
         <div>
-          <h1 class="section-team-h1">
+          <h1 class="section-flow-h1">
             Lorem ipsum dolor sit amet consectetur
           </h1>
-          <article class="section-team-article">
+          <article class="section-flow-article">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
             nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
             voluptate culpa nesciunt delectus iste?
           </article>
         </div>
-        <div class="team-btn">
+        <div class="community-btn">
           <button class="learn-more-btn">Learn More</button>
         </div>
       </section>
-      <section></section>
+      <section class="team-description">
+        <div>
+          <h1 class="team-h1">team</h1>
+          <p class="team-paragraph">Our Talents</p>
+          <article class="team-article">
+            Lorem ipsum, dolor sit amet consectetur <br />adipisicing elit.
+            community
+          </article>
+        </div>
+      </section>
       <section></section>
     </main>
 
