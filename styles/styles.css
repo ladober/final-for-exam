@@ -1,7 +1,9 @@
+
+/* header */
+
 .header-wrapper {
     background-color: #74C69D;
     height: 642px;
-    width: 375px;
 }
 
 .navbar {
@@ -17,6 +19,216 @@
     padding: 10px 10px;
 }
 
-.nav-menu {
-
+.burger-menu {
+    display: flex;
+    border: 0;
+    background-color: unset;
+    cursor: grab;
 }
+
+.navbar-h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 37.5px;
+    padding:  0 10px;
+    font-family: var(--font-fam-work);
+}
+
+.header-img {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.welcome-msg {
+    margin-top: 23px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.welcome-msg-h1 {
+    font-family: var(--font-fam-work);
+    color: white;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.welcome-paragraph {
+    font-family: var(--font-fam-crimson);
+    color: white;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 35px;
+    margin-top: 15px;
+    max-width: 335px;
+}
+
+.welcome-msg-article {
+    font-family: var(--font-fam-work);
+    color: #FFFFFFBF;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    max-width: 335px;
+}
+
+.btn-explore {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header-btn-explore {
+    width: 170px;
+    height: 48px;
+    background-color:white;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 25px;
+    font-family: var(--font-fam-work);
+    box-shadow: 1px 1px 2px rgb(114, 116, 114);
+    border-radius: 5px;
+    border: 1px;
+    cursor: grab;
+}
+
+/* partners-article */
+
+.partners-section {
+    height: 712px;
+}
+
+.partners-article {
+    text-align: center;
+}
+
+.partners-article-h1 {
+    color: #74C69D;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 20px;
+    font-family: var(--font-fam-work);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 22px;
+}
+
+.partners-article-span {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 30px;
+    font-family: var(--font-fam-crimson);
+    margin-top: 16px;
+}
+
+.partners-article-article {
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: var(--font-fam-work);
+    margin-top: 16px;
+    line-height: 1.6;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* local section only variable -a */
+
+.partners a {
+    padding: 25px;
+}
+
+.partners-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.learn-more-btn {
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    background-color: #212529;
+    border-radius: 5px;
+    width: 170px;
+    height: 48px;
+    box-shadow: 3px 3px 2px rgb(199, 198, 198);
+    cursor:grab;
+}
+
+/* team-section */
+
+.section-team {
+    margin-top: 89px;
+    text-align: center;
+}
+
+.section-team-h1 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #212529;
+    font-family: var(--font-fam-crimson);
+    text-align: left;
+    max-width: 335px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.section-team-article {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #212529;
+    font-family: var(--font-fam-work);
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 335px;
+}
+
+.team-btn {
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+/* section-flow */
+
+.section-flow {
+    margin-top: 55px;
+    text-align: center;
+}
+
+.section-flow-h1 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #212529;
+    font-family: var(--font-fam-crimson);
+    text-align: left;
+    max-width: 335px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.section-flow-article {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #212529;
+    font-family: var(--font-fam-work);
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 335px;
+}
+
+.flow-btn {
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+

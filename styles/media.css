@@ -3,3 +3,12 @@
         display: none;
     }
 }
+
+@media all and (min-width: 1440px) {
+    .nav-menu {
+        display: block;
+    }
+    .burger-menu {
+        display: none;
+    }
+}

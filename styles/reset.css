@@ -1,3 +1,9 @@
+:root {
+    --font-fam-crimson: 'Crimson Text';
+
+    --font-fam-work: 'Work Sans';
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,12 +11,6 @@
 
 html {
     font-size: 10px;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
 }
 
 img {
@@ -26,9 +26,4 @@ ul, ol {
 a {
     text-decoration: none;
     color: unset;
-}
-
-button {
-    border: none;
-    background-color: unset;
 }

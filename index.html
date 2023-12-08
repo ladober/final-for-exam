@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/media.css" />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -18,6 +17,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Work+Sans&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Inter&family=Poppins&family=Work+Sans&display=swap");
+    </style>
   </head>
   <body>
     <header class="header-wrapper">
@@ -26,7 +31,7 @@
           <a href="index.html"
             ><img src="assets/icons/index/logo-sm.svg" alt="site logo"
           /></a>
-          <h1>Start</h1>
+          <h1 class="navbar-h1">Start</h1>
         </div>
         <div class="nav-menu">
           <a href="index.html" target="_blank">Home</a>
@@ -35,33 +40,122 @@
           <a href="contact.html" target="_blank">Contact</a>
         </div>
         <div>
-          <button>
+          <button class="burger-menu">
             <img src="assets/icons/index/burger.svg" alt="burger menu" />
           </button>
         </div>
       </nav>
 
-      <div>
-        <img src="assets/imgs/index/for-header-sm.png" alt="" />
+      <div class="header-img">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="assets/imgs/index/for-header.png"
+          />
+          <img src="assets/imgs/index/for-header-sm.png" alt="header picture" />
+        </picture>
 
-        <div>
-          <h3>W E L C O M E</h3>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-          <article>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A sit
-            placeat, minus ipsa illo, enim soluta sed assumenda velit neque
-            pariatur ex nihil, totam perferendis quisquam!
+        <div class="welcome-msg">
+          <h1 class="welcome-msg-h1">welcome</h1>
+          <p class="welcome-paragraph">
+            Lorem ipsum dolor sit amet consectetur
+          </p>
+          <article class="welcome-msg-article">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
+            voluptate culpa nesciunt delectus iste?
           </article>
-
-          <button>Explore</button>
         </div>
+      </div>
+      <div class="btn-explore">
+        <button class="header-btn-explore">Explore</button>
       </div>
     </header>
 
     <main>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section class="partners-section">
+        <div class="partners-article">
+          <h1 class="partners-article-h1">partners</h1>
+          <p class="partners-article-span">Lorem Ipsum Dolor</p>
+          <article class="partners-article-article">
+            Lorem ipsum, dolor sit amet consectetur <br />
+            adipisicing elit.
+          </article>
+        </div>
+        <div class="partners">
+          <a href="https://www.google.com/" target="_blank"
+            ><img src="assets/icons/index/google-sm.svg" alt="google page"
+          /></a>
+          <a href="https://www.microsoft.com/en-us/" target="_blank"
+            ><img
+              src="assets/icons/index/microsoft-sm.svg"
+              alt="microsoft page"
+          /></a>
+          <a href="https://www.airbnb.com/" target="_blank"
+            ><img src="assets/icons/index/airbnb-sm.svg" alt="airbnb page"
+          /></a>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img src="assets/icons/index/facebook-sm.svg" alt="facebook page"
+          /></a>
+          <a href="https://open.spotify.com/" target="_blank"
+            ><img src="assets/icons/index/spotify-sm.svg" alt="spotify page"
+          /></a>
+        </div>
+
+        <div class="partners-btn">
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+      </section>
+
+      <section class="section-team">
+        <div>
+          <picture>
+            <source
+              media="(min-width:1440px)"
+              srcset="assets/imgs/index/team.png"
+            />
+            <img src="assets/imgs/index/team-sm.png" alt="team logo" />
+          </picture>
+        </div>
+        <div>
+          <h1 class="section-team-h1">
+            Lorem ipsum dolor sit amet consectetur
+          </h1>
+          <article class="section-team-article">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
+            voluptate culpa nesciunt delectus iste?
+          </article>
+        </div>
+        <div class="team-btn">
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+      </section>
+
+      <section class="section-flow">
+        <div>
+          <picture>
+            <source
+              media="(min-width:1440px)"
+              srcset="assets/imgs/index/flow.png"
+            />
+            <img src="assets/imgs/index/flow-sm.png" alt="team logo" />
+          </picture>
+        </div>
+        <div>
+          <h1 class="section-team-h1">
+            Lorem ipsum dolor sit amet consectetur
+          </h1>
+          <article class="section-team-article">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
+            voluptate culpa nesciunt delectus iste?
+          </article>
+        </div>
+        <div class="team-btn">
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+      </section>
       <section></section>
       <section></section>
     </main>
