@@ -35,9 +35,11 @@
     font-family: var(--font-fam-work);
 }
 
-.header-img {
+.header-items {
+    justify-content: center;
     text-align: center;
     margin-top: 22px;
+    /* max-width: 1180px; */
 }
 
 .welcome-msg {
@@ -76,8 +78,7 @@
 }
 
 .btn-explore {
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 25px;
 }
 .header-btn-explore {
     width: 170px;
@@ -93,7 +94,7 @@
     cursor: grab;
 }
 
-/* partners-article */
+/* partners-section */
 
 .partners-section {
     height: 712px;
@@ -261,6 +262,92 @@
     font-family: var(--font-fam-work);
     margin-top: 16px;
     margin-left: 20px;
+}
+
+/* team-members section */
+
+.team-members-section {
+    display: flex;
+    flex-direction: column;
+    height: 1301px;
+    margin-top: 41px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-members {
+    width: 279px;
+    height: 299px;
+    text-align: center;
+    border: 0.5px solid rgb(233, 230, 230);
+    box-shadow: 2px 0px 6px rgb(133, 131, 131);
+}
+
+.team-members:hover {
+    transition: 0.5s ease;
+    padding: 15px;
+    box-shadow: 2px 0px 6px rgb(241, 114, 173);
+}
+
+/* local -global variable, used only in this section. */
+
+.team-members img {
+    padding-top: 20px;
+}
+
+.team-mebers-h1 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    font-family: var(--font-fam-crimson);
+    margin: 19px 38px;
+    text-align: left;
+}
+
+.team-members-paragraph {
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: var(--font-fam-work);
+    color: #212529;
+    text-align: left;
+    margin: 17px 38px;
+}
+
+.team-members-explore-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+/* footer */
+
+.footer-wraper {
+    display: flex;
+    background-color: #74C69D;
+    height: 125px;
+    margin-top: 39px;
+    justify-content: space-around;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-items-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 243px;
+}
+
+.footer-copy-rights {
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: var(--font-fam-work);
+    color: white;
+    max-width: 326px;
 }
 
 

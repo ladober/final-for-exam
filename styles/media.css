@@ -6,20 +6,109 @@
 
 @media all and (min-width: 1440px) {
 
-    .navbar-logo {
-        /* display: flex; */
-        /* align-items: center; */
-        /* padding: 10px 10px; */
+    .header-wrapper {
+        background-color: #74C69D;
+        height: 586px;
     }
     .navbar {
-        justify-content: space-around;
+        justify-content: space-between;
+        padding: 35px 125px;
     }
     .nav-menu {
         padding: 20px;
         display: flex;
-        gap: 100px;
+        gap: 40px;
+        font-weight: 400;
+        font-size: 2rem;
+        color: white;
+        font-family: var(--font-fam-work);
     }
     .burger-menu {
         display: none;
     }
+
+    .header-items {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .header-img {
+        order: 1;
+    }
+    .welcome-msg {
+        order: 0;
+    }
+    
+    .welcome-paragraph {
+        font-weight: 700;
+        font-size: 4rem;
+        max-width: 416px;
+    }
+    
+    .welcome-msg-article {
+        max-width: 416px;
+    }
+
+    /* partners-section */
+
+    .partners-section {
+        height: 370px;
+        margin-top: 60px;
+    }
+    
+    .partners-article-span {
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 60px;
+    }
+    
+    .partners {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 55px;
+        gap: 60px;
+    }
+    
+    /* local section only variable -a */
+    
+    .partners a {
+        padding: 0;
+    }
+    
+    .partners-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 55px;
+    }
+    .learn-more-btn {
+        font-weight: 400;
+        font-size: 2rem;
+        color: white;
+        background-color: #212529;
+        border-radius: 5px;
+        width: 170px;
+        height: 48px;
+        box-shadow: 3px 3px 2px rgb(199, 198, 198);
+        cursor:grab;
+    }
+
+    /* community-section */
+
+.section-community {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.section-community-h1 {
+    font-size: 4rem;
+    max-width: 462px;
+}
+
+.section-community-article {
+    max-width: 470px;
+}
 }
