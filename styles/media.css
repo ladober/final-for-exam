@@ -16,7 +16,7 @@
     }
     .navbar {
         justify-content: space-between;
-        padding: 35px 125px;
+        padding-top: 35px;
     }
     .nav-menu {
         padding: 20px;
@@ -46,11 +46,11 @@
     .welcome-paragraph {
         font-weight: 700;
         font-size: 4rem;
-        max-width: 416px;
+        width: 416px;
     }
     
     .welcome-msg-article {
-        max-width: 416px;
+        width: 416px;
     }
 
     /* partners-section */

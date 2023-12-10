@@ -1,0 +1,66 @@
+@media all and (min-width: 375px) {
+    .nav-menu {
+        display: none;
+    }
+}
+
+@media all and (min-width: 1440px) {
+
+    .header-wrapper {
+        background-color: #74C69D;
+        height: 123px;
+    }
+    .navbar {
+        justify-content: space-between;
+        padding: 30px 95px;
+    }
+    .nav-menu {
+        padding: 20px;
+        display: flex;
+        gap: 40px;
+        font-weight: 400;
+        font-size: 2rem;
+        color: white;
+        font-family: var(--font-fam-work);
+    }
+    .burger-menu {
+        display: none;
+    }
+
+    .learn-btn {
+        margin-top: 64px;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 105px;
+    }
+    /* footer */
+
+    .footer-wraper {
+        background-color: #74C69D;
+        height: 125px;
+        margin-top: 99px;
+    }
+    
+    .footer-items {
+        max-width: 1176px;
+        display: flex;
+        padding-top: 0;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 41px;
+        margin-left: 120px;
+    }
+    .footer-items-social {
+        gap: 20px;
+    }
+    
+    .footer-copy-rights {
+        display: flex;
+        padding-top: 0;
+    }
+
+}

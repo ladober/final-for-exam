@@ -1,0 +1,193 @@
+
+/* header */
+
+.header-wrapper {
+    background-color: #74C69D;
+    height: 70px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+}
+
+.burger-menu {
+    display: flex;
+    border: 0;
+    background-color: unset;
+    cursor: grab;
+}
+
+.navbar-h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 37.5px;
+    padding:  0 10px;
+    font-family: var(--font-fam-work);
+}
+
+/* our services description */
+
+.portfolio {
+    margin-top: 34px;
+    text-align: center;
+}
+
+.portfolio-h1 {
+    font-family: var(--font-fam-work);
+    color: #74C69D;
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.portfolio-paragraph {
+    font-family: var(--font-fam-crimson);
+    color: black;
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-top: 15px;
+}
+
+.portfolio-article {
+    font-family: var(--font-fam-work);
+    color: black;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+/* our services section */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    margin-top: 46px;
+    text-align: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.services-item {
+    align-content: center;;
+    width: 339px;
+    height: 542px;
+    border: 0.5px solid rgb(219, 217, 217);
+    box-shadow: 1px 1px 6px rgb(204, 203, 203);
+}
+
+.services-item-plans {
+    margin-top: 46px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: var(--font-fam-work);
+}
+
+.services-item-h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    font-family: var(--font-fam-work);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.services-item-article {
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: var(--font-fam-work);
+    color:#212529;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.service-plan-description {
+    margin-top: 55px;
+}
+.service-plan-description-items {
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    gap: 11px;
+}
+
+.service-plan-description-items-span {
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: var(--font-fam-work);
+    color: #212529;
+    
+}
+
+.service-plan-description-paragraph {
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: var(--font-fam-work);
+    color: #212529;
+}
+
+.learn-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.learn-more-btn {
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    background-color: #212529;
+    border-radius: 5px;
+    width: 170px;
+    height: 48px;
+    box-shadow: 3px 3px 2px rgb(199, 198, 198);
+    cursor:grab;
+}
+
+
+/* footer */
+
+.footer-wraper {
+    background-color: #74C69D;
+    height: 125px;
+    margin-top: 39px;
+}
+
+.footer-items {
+    display: block;
+    padding-top: 31px;
+}
+.footer-items-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-copy-rights {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.footer-copy-rights-h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: var(--font-fam-work);
+    color: white;
+    line-height: 2;
+    max-width: 326px;
+}
+
+

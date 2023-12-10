@@ -6,6 +6,11 @@
     height: 642px;
 }
 
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -46,7 +51,6 @@
 .welcome-msg {
     margin-top: 23px;
     margin-left: 20px;
-    text-align: left;
 }
 
 .welcome-msg-h1 {
@@ -54,9 +58,10 @@
     color: white;
     font-weight: 700;
     font-size: 1.6rem;
-    line-height: 20px;
     letter-spacing: 5px;
     text-transform: uppercase;
+    text-align: left;
+    width: 335px;
 }
 
 .welcome-paragraph {
@@ -64,9 +69,9 @@
     color: white;
     font-weight: 700;
     font-size: 2.8rem;
-    line-height: 35px;
     margin-top: 15px;
-    max-width: 335px;
+    width: 335px;
+    text-align: left;
 }
 
 .welcome-msg-article {
@@ -75,10 +80,12 @@
     font-weight: 400;
     font-size: 1.5rem;
     margin-top: 15px;
-    max-width: 335px;
+    width: 335px;
+    text-align: left;
 }
 
 .btn-explore {
+    display: flex;
     margin-top: 25px;
 }
 .header-btn-explore {
