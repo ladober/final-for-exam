@@ -1,0 +1,135 @@
+
+/* header */
+
+.header-wrapper {
+    background-color: #74C69D;
+    height: 70px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+}
+
+.burger-menu {
+    display: flex;
+    border: 0;
+    background-color: unset;
+    cursor: grab;
+}
+
+.navbar-h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 37.5px;
+    padding:  0 10px;
+    font-family: var(--font-fam-work);
+}
+
+/* portfolio message */
+
+.portfolio {
+    margin-top: 34px;
+    text-align: center;
+}
+
+.portfolio-h1 {
+    font-family: var(--font-fam-work);
+    color: #74C69D;
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.portfolio-paragraph {
+    font-family: var(--font-fam-crimson);
+    color: black;
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-top: 15px;
+}
+
+.portfolio-article {
+    font-family: var(--font-fam-work);
+    color: black;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+/* portfolio items section */
+
+.portfolio-items {
+    margin-top: 45px;
+}
+
+.items {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 55px;
+}
+
+.learn-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+.learn-more-btn {
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    background-color: #212529;
+    border-radius: 5px;
+    width: 170px;
+    height: 48px;
+    box-shadow: 3px 3px 2px rgb(199, 198, 198);
+    cursor:grab;
+}
+
+
+/* footer */
+
+.footer-wraper {
+    background-color: #74C69D;
+    height: 125px;
+    margin-top: 39px;
+}
+
+.footer-items {
+    display: block;
+    padding-top: 31px;
+}
+.footer-items-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-copy-rights {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.footer-copy-rights-h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: var(--font-fam-work);
+    color: white;
+    line-height: 2;
+    max-width: 326px;
+}
+
+

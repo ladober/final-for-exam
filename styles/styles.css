@@ -39,8 +39,9 @@
     justify-content: center;
     text-align: center;
     margin-top: 22px;
-    /* max-width: 1180px; */
 }
+
+/* welcome message */
 
 .welcome-msg {
     margin-top: 23px;
