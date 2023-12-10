@@ -2,6 +2,10 @@
     .nav-menu {
         display: none;
     }
+
+    .team-members-view-btn {
+        display: none;
+    }
 }
 
 @media all and (min-width: 1440px) {
@@ -95,20 +99,128 @@
 
     /* community-section */
 
-.section-community {
+    .section-community {
     display: flex;
     margin-top: 100px;
     justify-content: center;
     align-items: center;
     gap: 60px;
-}
+    }
 
-.section-community-h1 {
+    .section-community-h1 {
     font-size: 4rem;
     max-width: 462px;
-}
+    }
 
-.section-community-article {
+    .section-community-article {
     max-width: 470px;
-}
+    }
+
+    /* flow section */
+
+    .section-flow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 74px;
+        gap: 80px;
+    }
+
+    .section-flow-img {
+        order: 1;
+    }
+
+    .section-flow-description {
+        order: 0;
+    }
+    
+    .section-flow-h1 {
+        font-size: 4rem;
+        max-width: 470px;
+    }
+    
+    .section-flow-article {
+        max-width: 470px;
+    }
+    
+    .flow-btn {
+        text-align: left;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+    /* our team */
+
+    .team-description {
+    margin-top: 102px;
+    text-align: center;
+    }
+
+    .team-h1 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: var(--font-fam-work);
+    color: #74C69D;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    }
+
+    .team-paragraph {
+    font-size: 4rem;
+    }
+
+    .team-article {
+        line-height: 1.5;
+    }
+
+    /* team-members section */
+
+    .team-members {
+        width: 252px;
+    }
+
+    .team-members-section {
+        display: flex;
+        flex-direction:row;
+        height: 299px;
+        justify-content: center;
+        margin-top: 41px;
+        align-items: center;
+        gap: 47px;
+    }
+
+    .team-members-explore-btn {
+        display: none;
+    }
+
+    .team-members-view-btn {
+        display: flex;
+    }
+
+    /* footer */
+
+    .footer-wraper {
+        background-color: #74C69D;
+        height: 125px;
+        margin-top: 39px;
+    }
+    
+    .footer-items {
+        max-width: 1176px;
+        display: flex;
+        padding-top: 0;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 41px;
+        margin-left: 120px;
+    }
+    .footer-items-social {
+        gap: 20px;
+    }
+    
+    .footer-copy-rights {
+        display: flex;
+        padding-top: 0;
+    }
+
 }
