@@ -35,27 +35,18 @@
     font-family: var(--font-fam-work);
 }
 
-/* portfolio message */
+/* our services description */
 
 .portfolio {
     margin-top: 34px;
     text-align: center;
 }
 
-.portfolio-h1 {
-    font-family: var(--font-fam-work);
-    color: #74C69D;
-    font-weight: 700;
-    font-size: 1.6rem;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-}
-
 .portfolio-paragraph {
     font-family: var(--font-fam-crimson);
     color: black;
     font-weight: 700;
-    font-size: 2.8rem;
+    font-size: 4rem;
     margin-top: 15px;
 }
 
@@ -68,36 +59,64 @@
     line-height: 1.5;
 }
 
-/* portfolio items section */
+/* form section */
 
-.portfolio-items {
-    margin-top: 45px;
-}
-
-.items {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 55px;
-}
-
-.learn-btn {
+.contact-map {
     display: flex;
     justify-content: center;
-    margin-top: 27px;
+    margin-top: 67px;
 }
-.learn-more-btn {
+
+.g-map {
+    width: 335px;
+    height: 224px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-input {
+    width: 335px;
+    height: 38px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+.contact-input-text-area {
+    width: 335px;
+    min-height: 141px;
+    background-color: #EEEEEE;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.contact-input-labels {
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: var(--font-fam-work);
+    margin-top: 21px;
+}
+
+/* form section button */
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.submit-btn-style {
     font-weight: 400;
     font-size: 2rem;
     color: white;
     background-color: #212529;
     border-radius: 5px;
-    width: 170px;
+    width: 335px;
     height: 48px;
     box-shadow: 3px 3px 2px rgb(199, 198, 198);
     cursor:grab;
 }
-
 
 /* footer */
 

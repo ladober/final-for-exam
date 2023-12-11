@@ -1,0 +1,29 @@
+:root {
+    --font-fam-crimson: 'Crimson Text';
+
+    --font-fam-work: 'Work Sans';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}

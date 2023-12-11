@@ -27,8 +27,57 @@
         display: none;
     }
 
-    .learn-btn {
-        margin-top: 64px;
+    /* form section */
+
+    .section-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 67px;
+        gap: 35px;
+    }
+
+    .contact-map {
+        order: 1;
+        margin-top: 0;
+    }
+
+    .g-map {
+        width: 575px;
+        height: 385px;
+    }
+
+    .contact-form {
+        display: flex;
+        justify-content: center;
+        height: 385px;
+    }
+    
+    .contact-input {
+        width: 575px;
+        height: 38px;
+        background-color: #EEEEEE;
+    }
+    
+    .contact-input-text-area {
+        width: 575px;
+        height: 75px;
+        background-color: #EEEEEE;
+        border: 2px solid;
+    }
+    
+    .contact-input-labels {
+        font-weight: 400;
+        font-size: 2rem;
+        font-family: var(--font-fam-work);
+        margin-top: 0;
+    }
+
+    .submit-btn {
+        margin-top: 20px;
+    }
+    .submit-btn-style {
+        width: 575px;
     }
 
     /* footer */

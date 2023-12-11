@@ -336,14 +336,19 @@
 /* footer */
 
 .footer-wraper {
+    display: flex;
     background-color: #74C69D;
     height: 125px;
     margin-top: 39px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-items {
-    display: block;
-    padding-top: 31px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .footer-items-social {
     display: flex;
