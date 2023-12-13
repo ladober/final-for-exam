@@ -20,6 +20,7 @@
     }
     .navbar {
         justify-content: space-around;
+        align-content: center;
         padding-top: 35px;
         gap: 310px;
     }
