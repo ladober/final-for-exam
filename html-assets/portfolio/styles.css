@@ -35,6 +35,10 @@
     font-family: var(--font-fam-work);
 }
 
+.active {
+    color:purple;
+}
+
 /* portfolio message */
 
 .portfolio {
@@ -70,15 +74,22 @@
 
 /* portfolio items section */
 
-.portfolio-items {
+.portfolio {
     margin-top: 45px;
 }
 
-.items {
+.portfolio-items {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 55px;
+}
+
+.portfolio-items img:hover {
+    transition: 0.6s ease-out;
+    padding: 15px;
+    box-shadow: 1px 1px 15px 3px #74C69D;
+    background-color: #74C69D;
 }
 
 .learn-btn {
@@ -98,6 +109,12 @@
     cursor:grab;
 }
 
+.learn-more-btn:hover {
+    border-radius: 25px 5px;
+    transition: 0.3s all ease;
+    color: black;
+    background-color: white;
+}
 
 /* footer */
 
@@ -136,5 +153,3 @@
     line-height: 2;
     max-width: 326px;
 }
-
-

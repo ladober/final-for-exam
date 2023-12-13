@@ -40,6 +40,10 @@
     font-family: var(--font-fam-work);
 }
 
+.active {
+    color: purple;
+}
+
 .header-items {
     justify-content: center;
     text-align: center;
@@ -87,6 +91,10 @@
 .btn-explore {
     display: flex;
     margin-top: 25px;
+}
+
+.btn-explore:hover {
+    padding-top: 1px;
 }
 .header-btn-explore {
     width: 170px;
@@ -146,7 +154,8 @@
     margin-top: 20px;
 }
 
-/* local section only variable -a */
+
+/* local variable for partners only section only */
 
 .partners a {
     padding: 25px;
@@ -163,10 +172,17 @@
     color: white;
     background-color: #212529;
     border-radius: 5px;
-    width: 170px;
-    height: 48px;
     box-shadow: 3px 3px 2px rgb(199, 198, 198);
     cursor:grab;
+    width: 170px;
+    height: 48px;
+}
+
+.learn-more-btn:hover {
+    border-radius: 25px 5px;
+    transition: 0.3s all ease;
+    color: black;
+    background-color: white;
 }
 
 /* community-section */

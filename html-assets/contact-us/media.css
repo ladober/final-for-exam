@@ -8,11 +8,11 @@
 
     .header-wrapper {
         background-color: #74C69D;
-        height: 123px;
+        height: 125px;
     }
     .navbar {
         justify-content: space-between;
-        padding: 30px 95px;
+        margin: 95px;
     }
     .nav-menu {
         padding: 20px;
@@ -32,9 +32,8 @@
     .section-form {
         display: flex;
         justify-content: center;
-        align-items: center;
-        margin-top: 67px;
         gap: 35px;
+        margin-top: 67px;
     }
 
     .contact-map {
@@ -95,7 +94,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 0 100px;
+        margin: 100px;
     }
     .footer-items-social {
         gap: 20px;
@@ -103,7 +102,7 @@
     
     .footer-copy-rights {
         display: flex;
-        padding-top: 0;
+        margin-top: 0px;
     }
 
 }

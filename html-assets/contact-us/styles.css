@@ -2,6 +2,9 @@
 /* header */
 
 .header-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: #74C69D;
     height: 70px;
 }
@@ -10,13 +13,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    margin: 10px;
 }
 
 .navbar-logo {
     display: flex;
     align-items: center;
-    padding: 8px 10px;
+    padding: 10px;
 }
 
 .burger-menu {
@@ -35,14 +38,18 @@
     font-family: var(--font-fam-work);
 }
 
+.active {
+    color:purple;
+}
+
 /* our services description */
 
-.portfolio {
+.contact-us {
     margin-top: 34px;
     text-align: center;
 }
 
-.portfolio-paragraph {
+.contacts-paragraph {
     font-family: var(--font-fam-crimson);
     color: black;
     font-weight: 700;
@@ -50,7 +57,7 @@
     margin-top: 15px;
 }
 
-.portfolio-article {
+.contacts-article {
     font-family: var(--font-fam-work);
     color: black;
     font-weight: 400;
@@ -84,12 +91,20 @@
     border-radius: 5px;
 }
 
+.contact-input:hover {
+    background-color:bisque;
+}
+
 .contact-input-text-area {
     width: 335px;
     min-height: 141px;
     background-color: #EEEEEE;
     border: 2px solid;
     border-radius: 5px;
+}
+
+.contact-input-text-area:hover {
+    background-color:bisque;
 }
 
 .contact-input-labels {
@@ -118,6 +133,13 @@
     cursor:grab;
 }
 
+.submit-btn-style:hover {
+    border-radius: 25px 5px;
+    transition: 0.3s all ease;
+    color: black;
+    background-color: white;
+}
+
 /* footer */
 
 .footer-wraper {
@@ -132,19 +154,19 @@
 .footer-items {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 }
 .footer-items-social {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
 .footer-copy-rights {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .footer-copy-rights-h1 {
@@ -153,7 +175,4 @@
     font-family: var(--font-fam-work);
     color: white;
     line-height: 2;
-    max-width: 326px;
 }
-
-
